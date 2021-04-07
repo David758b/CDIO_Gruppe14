@@ -26,7 +26,7 @@ import android.renderscript.Element
 import android.renderscript.RenderScript
 import android.renderscript.ScriptIntrinsicYuvToRGB
 import android.renderscript.Type
-import org.tensorflow.lite.examples.classification.BuildConfig
+import androidx.databinding.library.BuildConfig
 import java.nio.ByteBuffer
 
 /**
