@@ -39,7 +39,7 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.RecyclerView
-import org.tensorflow.lite.examples.classification.ml.Modeltest
+import org.tensorflow.lite.examples.classification.ml.Model3
 import org.tensorflow.lite.examples.classification.ui.RecognitionAdapter
 import org.tensorflow.lite.examples.classification.util.YuvToRgbConverter
 import org.tensorflow.lite.examples.classification.viewmodel.Recognition
@@ -211,7 +211,7 @@ class MainActivity : AppCompatActivity() {
         // TODO 1: Add class variable TensorFlow Lite Model
         // Initializing the flowerModel by lazy so that it runs in the same thread when the process
         // method is called.
-        private val test = Modeltest.newInstance(ctx)
+        private val test = Model3.newInstance(ctx)
 
         // TODO 6. Optional GPU acceleration
 
